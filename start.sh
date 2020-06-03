@@ -1,5 +1,5 @@
 #!/bin/bash
-app="docker.test"
+app="b3-requests-api"
 docker build -t ${app} .
 docker run -p 56733:80 \
   --name=${app} \

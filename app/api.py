@@ -4,6 +4,11 @@ from flask import jsonify, request
 import app.b3_requests as B3
 
 
+@app.route('/', methods=['GET'])
+def status():
+    return jsonify("server is running...")
+
+
 @app.route('/empresa/<regex("[A-Za-z0-9]"):letra>', methods=['GET'])
 def get_companies(letra):
 

@@ -10,6 +10,7 @@ from selenium.webdriver.chrome.options import Options
 
 url_list_companies = "http://bvmf.bmfbovespa.com.br/cias-listadas/empresas-listadas/BuscaEmpresaListada.aspx?idioma=pt-br"
 url_search_companies = 'http://bvmf.bmfbovespa.com.br/cias-listadas/empresas-listadas/BuscaEmpresaListada.aspx?Nome={text}&idioma=pt-br'
+sleep_render = 5
 
 
 def get_companies_by_letter(letter):
@@ -44,6 +45,7 @@ def _browser_request(url):
 
     driver = webdriver.Chrome(options=chrome_options)
     driver.get(url)
+    time.sleep(sleep_render)
 
 
 def _click_on_letter_menu(letter):
@@ -56,7 +58,7 @@ def _click_on_letter_menu(letter):
 
             letter_element = driver.find_element_by_id(letter_elem_id)
             letter_element.click()
-            time.sleep(5)
+            time.sleep(sleep_render)
 
             break
         except exceptions.StaleElementReferenceException:
