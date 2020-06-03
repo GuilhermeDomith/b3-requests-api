@@ -1,9 +1,7 @@
-from flask import Flask, jsonify, request
-from url_converters import RegexConverter
-import b3_requests as B3
+from app import app
+from flask import jsonify, request
 
-app = Flask(__name__)
-app.url_map.converters['regex'] = RegexConverter
+import app.b3_requests as B3
 
 
 @app.route('/empresa/<regex("[A-Za-z0-9]"):letra>', methods=['GET'])
@@ -21,7 +19,3 @@ def search_companies():
     companies = B3.search_companies(search)
 
     return jsonify(companies)
-
-
-if __name__ == '__main__':
-    app.run(host='localhost', port=3030)

@@ -1,0 +1,32 @@
+1591210102868	geckodriver	INFO	geckodriver 0.19.1
+1591210102874	geckodriver	INFO	Listening on 127.0.0.1:60549
+1591210104195	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5YLtju48ZvRs"
+process 31: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+See the manual page for dbus-uuidgen to correct this issue.
+  D-Bus not compiled with backtrace support so unable to print a backtrace
+Redirecting call to abort() to mozalloc_abort
+
+1591210403901	geckodriver	INFO	geckodriver 0.19.1
+1591210403907	geckodriver	INFO	Listening on 127.0.0.1:58335
+1591210405241	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.OSff68zI4vMc"
+process 32: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+See the manual page for dbus-uuidgen to correct this issue.
+  D-Bus not compiled with backtrace support so unable to print a backtrace
+Redirecting call to abort() to mozalloc_abort
+
+1591211441751	geckodriver	INFO	geckodriver 0.19.1
+1591211441756	geckodriver	INFO	Listening on 127.0.0.1:47083
+1591211443049	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.33ljGK9Or1w2"
+process 32: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+See the manual page for dbus-uuidgen to correct this issue.
+  D-Bus not compiled with backtrace support so unable to print a backtrace
+Redirecting call to abort() to mozalloc_abort
+
+1591211716176	geckodriver	INFO	geckodriver 0.21.0
+1591211716184	geckodriver	INFO	Listening on 127.0.0.1:45975
+1591211717290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zFzfPWs4nxTS"
+process 31: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+See the manual page for dbus-uuidgen to correct this issue.
+  D-Bus not compiled with backtrace support so unable to print a backtrace
+Redirecting call to abort() to mozalloc_abort
+
