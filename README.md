@@ -7,9 +7,3 @@ Execute o comando abaixo para construir a imagem e executar a api no endereço [
 ```Shell
 $ sudo docker-compose up
 ```
-
-ou executar o build a partir do script
-
-```Shell
-$ sudo bash start.sh
-```
